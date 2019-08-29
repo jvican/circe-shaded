@@ -6,6 +6,7 @@ lazy val circeShaded = project
   .enablePlugins(ShadingPlugin)
   .settings(
     name := "circe-shaded",
+    organization := "ch.epfl.scala",
     scalaVersion := "2.12.8",
     version := "0.9.3",
     shadingNamespace := "bloop.shaded",
